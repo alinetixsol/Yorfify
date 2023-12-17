@@ -47,8 +47,9 @@ const Footer = () => {
         color={colors.text.white}
       >
         <Typography>&copy; 2023 Yorfy Template. All Rights Reserved</Typography>
-        <Typography>Developed By Ali Muhammad</Typography>
-        <Typography>Intern At Netixsol</Typography>
+        <Typography>
+          Developed By Ali Muhammad <br></br> <span>Intern At Netixsol</span>
+        </Typography>
       </Stack>
     </Stack>
   );
